@@ -1,0 +1,37 @@
+{
+  "name": "validate-currency-code",
+  "version": "0.1.0",
+  "description": "Very simple lib to check if something is a iso 4217 currency code",
+  "keywords": [
+    "iso",
+    "4217",
+    "iso 4217",
+    "currency",
+    "currencies"
+  ],
+  "author": {
+    "name": "Wigger Boelens",
+    "email": "me@wiggerboelens.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Boelensman1/validate-currency-code.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^2.8.0"
+  },
+  "main": "index",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -R spec"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/Boelensman1/validate-currency-code.git/issues"
+  }
+}
