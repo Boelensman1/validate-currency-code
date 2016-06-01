@@ -5,6 +5,6 @@ Very simple lib to check if something is a iso 4217 currency code
 ``` javascript
 var validateCurrencyCode = require('validate-currency-code');
 if (validateCurrencyCode('EUR')) {
-  // code here
+  // code that should run when the currencycode is valid
 }
 ```
