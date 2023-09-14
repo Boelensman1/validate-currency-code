@@ -1,6 +1,6 @@
 {
   "name": "validate-currency-code",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Very simple lib to check if something is a iso 4217 currency code",
   "keywords": [
     "iso",
