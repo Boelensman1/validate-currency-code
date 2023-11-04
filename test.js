@@ -7,6 +7,7 @@ chai.config.includeStack = true;
 
 describe('Test validate-currency-code', function() {
   it('Should validate the correct codes', function() {
+    expect(validateCurrencyCode('AED')).to.be.true;
     expect(validateCurrencyCode('EUR')).to.be.true;
     expect(validateCurrencyCode('JPY')).to.be.true;
   });
